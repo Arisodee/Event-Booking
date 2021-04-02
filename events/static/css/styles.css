@@ -1,0 +1,196 @@
+.techfont{
+    font-family: 'Handlee', cursive;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(87, 87, 243);
+}
+
+.bigbrand{
+    font-size: 1.5em;
+}
+
+.about{
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1526280524276-51b1c8a46321?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjAwfHxibG9nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;  
+    background-position: center; 
+    overflow-x:hidden;
+    width:100%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.about-content{
+    font-family: 'Handlee', cursive;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+    font-weight: bold;
+}
+
+.about-content p{
+    font-size: 1.8em;
+}
+
+
+.centerlist{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eventdate{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.eventtitle{
+    font-family:'Handlee', cursive;
+    font-size: 3em;
+}
+
+.eventposts{
+    margin-bottom:5%;
+}
+
+.eventposts h3{
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+}
+
+.eventcontent{
+    font-family: 'Handlee',cursive;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.btn-comment{
+    position:absolute;
+    right:0px;
+}
+
+.comments{
+    text-decoration: underline;
+    font-family: 'Handlee', cursive;
+}
+.devcom h3{
+    font-family: 'Handlee', cursive;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+.devcom{
+    background-image: url('https://images.unsplash.com/photo-1526280524276-51b1c8a46321?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjAwfHxibG9nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 80vh;  
+    background-position: center; 
+    overflow-x:hidden;
+    width:100%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.event-delete{
+    background-color: rgb(236, 233, 233);
+    font-family: 'Handlee', cursive;
+}
+
+.event-booking{
+    background-color: rgb(236, 233, 233);
+    font-family: 'Handlee', cursive;
+}
+
+.eventdeets{
+    color: #337ab7;
+}
+
+.login{
+    margin-top: 3%;
+    background-image: url('https://images.unsplash.com/photo-1518553634183-40a6deeae021?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fGJsb2d8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 85vh;  
+    background-position: center; 
+    text-align:center; 
+    overflow-x:hidden;
+    width:100%;
+    margin-left: 30%;
+}
+
+.jumbotron-login{
+    background-color: whitesmoke;
+    margin-top: 20%;
+    margin-left: -7%;
+    width: 135%;
+}
+
+.image p{
+    font-size:30px;
+    margin-top:8%; 
+    color:white; 
+    font-family: 'Handlee', cursive;
+    margin-left: -9%;
+}
+
+.register{
+    margin-top: 2%;
+    background-image: url('https://images.unsplash.com/photo-1518553634183-40a6deeae021?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fGJsb2d8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;  
+    background-position: center; 
+    text-align:center; 
+    overflow-x:hidden;
+    width:100%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+
+.reg-form{
+    margin-top: 5%;
+}
+
+.event-form{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4%;
+}
+
+.new-event-form{
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1537002257-fef75f6473e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzQ5fHxibG9nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;  
+    background-position: center; 
+    overflow-x:hidden;
+    width:100%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.new-event-form h2{
+    font-family: 'Handlee',cursive;
+}
+
+.event-new-form{
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+}
+
+.post{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border: 4px solid rgb(218, 214, 214);
+    padding-bottom:2% ;
+    margin-right:2% ;
+    padding-right: 1%;
+    width: 31%;
+}

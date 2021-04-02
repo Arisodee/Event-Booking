@@ -13,7 +13,7 @@ class AboutView(TemplateView):
     template_name = 'events/about.html'
 
 
-class PostListView(ListView):
+class PostListView(LoginRequiredMixin, ListView):
     model = Event
 
     def get_queryset(self):

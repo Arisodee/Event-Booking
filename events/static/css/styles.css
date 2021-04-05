@@ -194,3 +194,49 @@
     padding-right: 1%;
     width: 31%;
 }
+
+@media screen and (max-width:450px) {
+    form{
+        width: 100%;
+        margin-top: 10px;
+    } 
+    body{
+        overflow-x: hidden;
+    }
+    .login, .register, .new-event-form{
+        width: 100%;
+        margin-left: 1%;
+        padding: 2%;
+    }
+    .event-new-form{
+        margin-left: 1%;
+        width: 100%;
+        padding: 2%;
+    }
+}
+@media screen and (max-width:1366px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+   
+     .col-md-4{
+        width: auto;
+    }
+    .about{
+        width: auto;
+        margin-left: 2%;
+    }
+     .event-new-form{
+        margin-left: 1%;
+        width: 100%;
+        padding: 2%;
+        margin-right: 3%;
+    }
+    .new-event-form{
+        width: 100%;
+        margin-left: 1%;
+        padding: 2%;
+        margin-right: 2%;
+    }
+
+}

@@ -16,13 +16,14 @@
                     </div>
                       
                     {% if user.is_authenticated %}
+                    {% if user.id == event.posted_by.id %}
                     <a class="btn btn-primary" href="{% url 'event_edit' pk=event.pk %}">
                         <span class="glyphicon glyphicon-pencil"></span>Edit
                     </a>
                     <a class="btn btn-primary" href="{% url 'event_remove' pk=event.pk %}">
                         <span class="glyphicon glyphicon-remove"></span>Delete
                     </a>
-                    
+                    {% endif %}
                     <button class="btn btn-primary" onclick="bookEvent()"><span class="glyphicon glyphicon-bookmark"></span>Book</button>
                     
                     {% endif %}

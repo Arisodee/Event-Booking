@@ -1,0 +1,20 @@
+{% extends 'events/base.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+{% if user.id == event.posted_by.id %}
+<div class="container new-event-form">
+    <h2>Add Event</h2>
+
+    <form class="event-new-form" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+    <script>var editor = new MediumEditor('.editable');</script>
+
+</div>
+{% else %}
+    What you are attempting to do is not allowed!
+{% endif %}
+{% endif %}
+{% endblock %}

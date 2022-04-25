@@ -8,4 +8,5 @@ urlpatterns=[
     url(r'^post/(?P<pk>\d+)/edit/$', views.PostUpdateView.as_view(), name='event_edit'),
     url(r'^post/(?P<pk>\d+)/remove/$', views.PostDeleteView.as_view(), name='event_remove'),
     # url(r'^post/(?P<pk>\d+)/remove/$',views.event_remove,name='event_remove'),
+    
 ]   

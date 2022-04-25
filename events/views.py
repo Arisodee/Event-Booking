@@ -26,7 +26,6 @@ class CreatePostView(LoginRequiredMixin,CreateView):
 
     form_class = EventForm
 
-
     model = Event
 
     success_url = reverse_lazy('event_list')
@@ -51,11 +50,11 @@ class PostDeleteView(LoginRequiredMixin, DeleteView):
 
     success_url = reverse_lazy('event_list')
 
-
-@login_required
-def event_remove(request, pk, template_name='events/event_confirm_delete.html'):
-    event= get_object_or_404(Event, pk=pk)
-    if request.method=='POST':            
-        event.delete()
-        return redirect('event_list')
-    return render(request, template_name, {'object':event})
+# View function to delete an event by the person who posted
+# @login_required
+# def event_remove(request, pk, template_name='events/event_confirm_delete.html'): 
+#     event= get_object_or_404(Event, pk=pk)
+#     if request.method=='POST':            
+#         event.delete()
+#         return redirect('event_list')
+#     return render(request, template_name, {'object':event})

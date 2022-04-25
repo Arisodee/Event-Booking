@@ -10,7 +10,7 @@ A user will be able to:
 1. Sign up and log in
 2. Post their event and have other users book them
 3. View events posted by other users and book them
-4. Update and elete their events
+4. Update and delete their events
 
 
 ## Technologies Used
@@ -26,7 +26,7 @@ This project requires a prerequisite understanding of the following:
 - Django Framework
 - Python3.6
 - Postgres
-- Python virtualenv
+- Python virtual env
 
 ## Setup and installation
 
